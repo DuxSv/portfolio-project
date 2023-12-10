@@ -1,6 +1,15 @@
+body {
+  font-family: "Playfair Display", serif;
+}
+
 h1 {
   font-family: "Poppins", sans-serif;
 }
-h2 {
-  font-family: "Playfair Display", serif;
+
+.hero {
+  margin-top: 100px;
+  text-align: center;
+}
+.mt-5 {
+  margin: 50px;
 }
