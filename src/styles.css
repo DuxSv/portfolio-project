@@ -1,5 +1,6 @@
 body {
   font-family: "Playfair Display", serif;
+  background-color: rgb(228, 211, 243);
 }
 
 h1 {
@@ -12,4 +13,7 @@ h1 {
 }
 .mt-5 {
   margin: 50px;
+}
+.contact {
+  margin: 500px;
 }
