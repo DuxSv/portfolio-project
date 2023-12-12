@@ -46,11 +46,14 @@ h1 {
   text-decoration: none;
   box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.2);
   border-color: var(--title-color);
-  margin: 20px 40px;
+  margin-top: 200px;
   border-radius: 10px;
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
   color: white;
   background: var(--title-color);
+}
+.about-app {
+  margin-bottom: 50px;
 }
