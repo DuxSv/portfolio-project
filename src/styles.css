@@ -1,10 +1,29 @@
+:root {
+  --main-color: #231d3c;
+  --title-color: #885df1;
+  --title-paragraph-color: #41306b;
+}
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 36px;
+  }
+  h2 {
+    font-size: 24px;
+    text-align: center;
+  }
+}
+
 body {
   font-family: "Playfair Display", serif;
   background-color: rgb(228, 211, 243);
+  color: var(--main-color);
+  margin-top: 100px;
 }
 
 h1 {
   font-family: "Poppins", sans-serif;
+  color: var(--title-paragraph-color);
 }
 
 .hero {
@@ -21,4 +40,17 @@ h1 {
 .hero-about {
   margin-top: 100px;
   text-align: right;
+}
+
+.link-app {
+  text-decoration: none;
+  box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.2);
+  border-color: var(--title-color);
+  margin: 20px 40px;
+  border-radius: 10px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: white;
+  background: var(--title-color);
 }
