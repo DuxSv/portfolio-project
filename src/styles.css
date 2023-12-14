@@ -16,7 +16,7 @@
 
 body {
   font-family: "Playfair Display", serif;
-  background-color: rgb(228, 211, 243);
+  background-color: rgb(240, 232, 247);
   color: var(--main-color);
   margin-top: 100px;
 }
@@ -38,7 +38,7 @@ h2 {
 }
 
 .card {
-  border-color: white;
+  border-color: rgb(210, 164, 250);
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .card-body {
