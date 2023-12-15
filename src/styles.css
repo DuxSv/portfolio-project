@@ -73,4 +73,14 @@ a {
 }
 .link:hover {
   color: var(--title-color);
+  font-size: 20px;
+}
+
+.link-open-sourced {
+  color: var(--title-color);
+  text-decoration: underline;
+}
+
+.footer-text {
+  font-size: 14px;
 }
